@@ -8,7 +8,7 @@ int main()
   double height   = 0.0;
   double radius   = 0.0;
   double volume   = 0.0;
-
+  const double PI = 3.14;
   
   
   cout << "Height: ";
