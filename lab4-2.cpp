@@ -10,7 +10,7 @@ int main()
   cout << "Sales amount: ";
   cin >> sales;
   commission = sales * COMM_RATE;
-  cout << "Commission: $;
+  cout << "Commission: $"
     << commission << endl;
 
 
