@@ -5,10 +5,10 @@
 using namespace std;
 
 int main() {
-  double salePrice = 0.0;
-  double taxRate = 0.0;
+  double salePrice = 0.0; double beginningBalance = 0.0;
+  double taxRate = 0.0;   double totalDeposits = 0.0;
 
-  double salesTax = 0.0;
+  double salesTax = 0.0; double totalWithdrawals = 0.0;
 
   double cost = 0.0;
 
