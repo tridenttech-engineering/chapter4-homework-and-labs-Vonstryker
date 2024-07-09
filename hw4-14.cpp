@@ -27,15 +27,16 @@ int main() {
   cin >> familyPizza;
 
   totalAmount = smallPizza + mediumPizza + largePizza + familyPizza;
-  smallPizzapercent = smallPizza / totalAmount;
-  mediumPizzapercent = mediumPizza / totalAmount;
-  largePizzapercent = largePizza / totalAmount;
-  familyPizzapercent = familyPizza / totalAmount;
+  smallPizzapercent = (smallPizza / totalAmount) * 100;
+  mediumPizzapercent = (mediumPizza / totalAmount) * 100;
+  largePizzapercent = (largePizza / totalAmount) * 100;
+  familyPizzapercent = (familyPizza / totalAmount) * 100;
 
-  cout << "smallPizzapercent = %" << smallPizzapercent;
-  cout << "mediumPizzapercent = %" << mediumPizzapercent;
-  cout << "largePizzapercent = %" << largePizzapercent;
-  cout << "familyPizzapercent = %" << familyPizzapercent << endl;
+  cout << totalAmount;
+  cout << smallPizzapercent;
+  cout << mediumPizzapercent;
+  cout << largePizzapercent;
+  cout << familyPizzapercent << endl;
 
   
   return 0;
