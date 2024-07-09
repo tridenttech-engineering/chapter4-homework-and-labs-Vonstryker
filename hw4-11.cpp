@@ -5,20 +5,24 @@
 using namespace std;
 
 int main() {
-  double salePrice = 0.0; double beginningBalance = 0.0;
-  double taxRate = 0.0;   double totalDeposits = 0.0;
+  double beginningBalance = 0.0;
+  double totalDeposits = 0.0;
+  double totalWithdrawals = 0.0;
 
-  double salesTax = 0.0; double totalWithdrawals = 0.0;
+  double totalAmount = 0.0;
 
-  double cost = 0.0;
+  cout << "beginningBalance: ";
+  cin >> beginningBalance;
+  
+  cout << "totalDeposits: ";
+  cin >> totalDeposits;
 
-  cout << "enter the sale price: ";
-  cin >> salePrice;
-  cout << "Enter the sales tax rate: ";
-  cin >> taxRate;
-  salesTax = salePrice * taxRate;
-  cost = salePrice + salesTax;
-  cout << "Cost: $" << cost << endl;
+  cout << "totalWithdrawals: ";
+  cin >> totalWithdrawals;
+  
+  
+  totalAmount = beginningBalance + totalDeposits - totalWithdrawals;
+  cout << "totalAmount: $" << totalAmount << endl;
 
   return 0;
 } // end of main function
