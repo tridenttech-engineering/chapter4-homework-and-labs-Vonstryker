@@ -35,7 +35,7 @@ int main() {
   cout << "smallPizzapercent = %" << smallPizzapercent;
   cout << "mediumPizzapercent = %" << mediumPizzapercent;
   cout << "largePizzapercent = %" << largePizzapercent;
-  cout << "familyPizzapercent = %" << familyPizzapercent;
+  cout << "familyPizzapercent = %" << familyPizzapercent << endl;
 
   
   return 0;
