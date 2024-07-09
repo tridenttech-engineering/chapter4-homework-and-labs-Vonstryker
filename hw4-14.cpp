@@ -32,7 +32,11 @@ int main() {
   largePizzapercent = largePizza / totalAmount;
   familyPizzapercent = familyPizza / totalAmount;
 
-  cout << "smallPizzapercent = %" smallPizzapercent;
+  cout << "smallPizzapercent = %" << smallPizzapercent;
+  cout << "mediumPizzapercent = %" << mediumPizzapercent;
+  cout << "largePizzapercent = %" << largePizzapercent;
+  cout << "familyPizzapercent = %" << familyPizzapercent;
+
   
   return 0;
 } // end of main function
