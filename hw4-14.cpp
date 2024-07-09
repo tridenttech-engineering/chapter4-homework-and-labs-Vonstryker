@@ -10,6 +10,10 @@ int main() {
   double largePizza = 0.0;
   double familyPizza = 0.0;
 
+  double totalAmount = 0.0;
+
+  double smallPizzapercent= 0.0
+  
   cout << "smallPizza: ";
   cin >> smallPizza;
   cout << "mediumPizza: ";
@@ -19,7 +23,8 @@ int main() {
   cout << "familyPizza: ";
   cin >> familyPizza;
 
-
+  totalAmount = smallPizza + mediumPizza + largePizza + familyPizza;
+  smallPizzapercent = smallPizza / totalAmount;
   
   return 0;
 } // end of main function
