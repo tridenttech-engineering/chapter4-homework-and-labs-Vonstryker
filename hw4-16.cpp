@@ -11,7 +11,6 @@ int main()
     const double increase = 1.05;
     double store1 = 0.0;
     double store2 = 0.0;
-    double total  = 0.0;
 
     int store1Int = 0;
     int store2Int = 0;
@@ -24,7 +23,6 @@ int main()
 
     store1 = store1 * increase;
     store2 = store2 * increase;
-    total = store1 + store2;
 
     store1Int = static_cast<int>(store1 * increase * 100 + .5);
     store2Int = static_cast<int>(store2 * increase * 100 + .5);
