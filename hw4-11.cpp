@@ -14,7 +14,7 @@ int main() {
 
   cout << "enter the sale price: ";
   cin >> salePrice;
-  cout << "Enter the sales tax rate: "
+  cout << "Enter the sales tax rate: ";
   cin >> taxRate;
   salesTax = salePrice * taxRate;
   cost = salePrice + salesTax;
