@@ -13,9 +13,9 @@ int main()
     double store2 = 0.0;
     double total = 0.0;
 
-    //int store1Int = 0;
-    //int store2Int = 0;
-    //int totalInt = 0;
+    int store1Int = 0;
+    int store2Int = 0;
+    int totalInt = 0;
 
     cout << "Store 1 sales: ";
     cin >> store1;
@@ -26,14 +26,15 @@ int main()
     store2 = store2 * increase;
     total = store1 + store2;
     
-    //store1Int = static_cast<int>(store1 * increase * 100 + .5);
-    //store2Int = static_cast<int>(store2 * increase * 100 + .5);
-    //totalInt = store1Int + store2Int;
+    store1Int = static_cast<int>(store1 * increase * 100 + .5);
+    store2Int = static_cast<int>(store2 * increase * 100 + .5);
+    totalInt = store1Int + store2Int;
 
     cout << fixed << setprecision(2) << endl;
     cout << store1 <<  endl;
     cout << store2 << endl;
     cout << total <<  endl;
+    cout << totalInt / 100.0 << " --->Total" << endl;
   
   return 0;
 }	//end of main function
@@ -45,4 +46,4 @@ int main()
 //5.  Change store1 in the second cout statement to store1Int / 100.0
 //6.  Change store2 in the third cout statement to store2Int / 100.0
 //7.  Change total in the last cout statement to totalInt / 100.0
-To answer your question on why .5 is needed. It is to ensure that the number is rounded up properly.
+To answer your question as to why add .5, it is to ensure that the number is rounded correctly.
