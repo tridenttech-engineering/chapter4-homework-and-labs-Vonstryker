@@ -46,4 +46,4 @@ int main()
 //5.  Change store1 in the second cout statement to store1Int / 100.0
 //6.  Change store2 in the third cout statement to store2Int / 100.0
 //7.  Change total in the last cout statement to totalInt / 100.0
-//To answer your question as to why add .5, it is to ensure that the number is rounded correctly.
+
